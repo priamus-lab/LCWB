@@ -20,10 +20,10 @@ De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello
 ## Content of the folder
 This folder contains the following files and subfolders.
 
-A subfolder named "LCWB Dataset" containing all the .csv composing the original Level Crossing Warning Bell Dataset:
-- WB_data.csv (WB_labels.csv): representing data of the "Warning Bell" class;
-- NA_data.csv (NA_labels.csv): representing data of the "No Alarm" class;
-- GE_data.csv (GE_labels.csv): representing data of the "GEneric alarm" class.
+A subfolder named "LCWB Dataset" containing all the .csv composing the original LCWB Dataset:
+- WB_data.csv (WB_labels.csv): representing data of the "Warning Bell (WB)" class;
+- NA_data.csv (NA_labels.csv): representing data of the "No Alarm (NA)" class;
+- GE_data.csv (GE_labels.csv): representing data of the "GEneric alarm (GE)" class.
 
 A subfolder named "Additional Files" containing some .csv files related to data we adopted to further test the generalisation performances of the deep learning network leveraged in the aforementioned manuscript:
 - FR_DE_data.csv (FR_DE_labels.csv), which have been used to test the generalisation performances of the network we exploited on LC WBs related to countries that were not considered in the training phase.
