@@ -38,7 +38,7 @@ Each XX_labels.csv file contains, for each entry, the following information:
 - The code-name ("mid") of the class, which is used in the XX_data.csv file to indicate the sub-class of a specific audio;
 - The extend name of the class ("display_name").
 
-Worth mentioning, sub-classes have not a specific purpose in our task. They have been kept to maintain as much as possible the structure of the "class_labels_indices.csv" file provided by AudioSet. The same applies to the XX_data.csv files, which have roughly the same structures of "Evaluation", "Balanced train", and "Unbalanced train" AudioSet .csv files.
+Worth mentioning, sub-classes have not a specific purpose in our task. They have been kept to maintain as much as possible the structure of the "class_labels_indices.csv" file provided by [AudioSet](https://research.google.com/audioset/). The same applies to the XX_data.csv files, which have roughly the same structures of ["Evaluation", "Balanced train", and "Unbalanced train" Audioset .csv files](https://research.google.com/audioset/download.html).
 
 Indeed, each XX_data.csv file contains, for each entry, the following information:
 - ID: the identifier of the entry;
@@ -52,11 +52,11 @@ The structure of the .csv files contained in this folder (and subfolders), as we
 
 Particularly, from AudioSet, we retrieved:
 - The structure of the .csv files as discussed above.
-- Data contained in GE_data.csv (which is a minimal portion of data made available by AudioSet) as well as the related 19 classes (in GE_labels.csv) which we selected among the about 527 classes included in the AudioSet ontology.
+- Data contained in GE_data.csv (which is a minimal portion of data made available by AudioSet) as well as the related 19 classes (in GE_labels.csv) which we selected among the about 527 classes included in the [AudioSet ontology](https://research.google.com/audioset/ontology/index.html).
 
 Data contained in XX_data.csv files other than GE_data.csv have been retrieved by manually analysing several YouTube videos. Then, the related XX_labels.csv files have been created consequently.
 
-More about downloading the AudioSet dataset can be found at https://research.google.com/audioset/download.html.
+More about downloading the AudioSet dataset can be found [here](https://research.google.com/audioset/download.html).
 
 
 ## Future Release
