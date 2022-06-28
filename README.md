@@ -14,7 +14,7 @@ The .csv files contained in this folder (and subfolders) compose the Level Cross
 
 When using any of these data, please mention:
 
-De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello, C., Bernaudine, F., and Sansone, C., "Intelligent Detection of Warning Bells at Level Crossings through Deep Transfer Learning for Smarter Railway Maintenance", Submitted to Computers in Industry, Elsevier, 2022
+De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello, C., Bernaudine, F., and Sansone, C., "Intelligent Detection of Warning Bells at Level Crossings through Deep Transfer Learning for Smarter Railway Maintenance", Submitted to Computers & Industrial Engineering, Elsevier, 2022
 
 
 ## Content of the folder
