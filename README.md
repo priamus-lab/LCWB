@@ -18,21 +18,24 @@ De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello
 
 
 ## Content of the folder
-This folder contains the following files and subfolders.
+This folder contains the following subfolders and files.
 
-A subfolder named "LCWB Dataset" containing all the .csv composing the original LCWB Dataset:
+A subfolder named "Data Files" containing all the CSV files related to the data composing the LCWB Dataset:
 - WB_data.csv (WB_labels.csv): representing data of the "Warning Bell (WB)" class;
 - NA_data.csv (NA_labels.csv): representing data of the "No Alarm (NA)" class;
 - GE_data.csv (GE_labels.csv): representing data of the "GEneric alarm (GE)" class.
 
-A subfolder named "Additional Files" containing some .csv files related to data we adopted to further test the generalisation performances of the deep learning network leveraged in the aforementioned manuscript:
-- FR_DE_data.csv (FR_DE_labels.csv), which have been used to test the generalisation performances of the network we exploited on LC WBs related to countries that were not considered in the training phase.
-- LowHighIntesity_data.csv (LowHighIntesity_labels.csv), which have been used to study the correlation between the intesity of the audio and the network classification error.
-    
-A file "OtherEUCountriesWBs.txt" reporting the mapping between WB audio (labelled as "oc_warningbell" in the WB_data.csv file) and the related EU Country.
+A subfolder named "LCWB Dataset" containing all the JSON files that show how the aformenteioned data have been distributed among training, validation, and test sets:
+- IT_Distribution.json and UK_distribution.json respectively shows how Italian (IT) WBs and British (UK) WBs have been distributed;
+- The same goes for NA_Distribution.json and GE_Distribution.json which show the distribution of NA and GE data respectively;
+- DatasetDistribution.json simply incorporates the content of the aforementioned JSON files in a unique file that can be exploited to obtain exactly the same dataset we adopted in our analyses.
+
+A subfolder named "Additional Files" containing some CSV files related to data we adopted to further test the deep neural network leveraged in the aforementioned manuscript:
+- FR_DE_data.csv (FR_DE_labels.csv): representing data that have been used to test the generalisation performances of the network we exploited on LC WBs related to countries that were not considered in the training phase.
+- Noises_data.csv (Noises_labels.csv): representing the noises that were considered to study the behaviour of the network in case of noisy data.
 
 
-## Files Structure
+## CSV Files Structure
 Each XX_labels.csv file contains, for each entry, the following information:
 - The identifier ("index") of the sub-class (which is not relevant in our case);
 - The code-name ("mid") of the class, which is used in the XX_data.csv file to indicate the sub-class of a specific audio;
@@ -48,17 +51,16 @@ Indeed, each XX_data.csv file contains, for each entry, the following informatio
 
 
 ## Credits
-The structure of the .csv files contained in this folder (and subfolders), as well as part of their content, was inspired by the .csv files composing the AudioSet dataset which is made available by Google Inc. under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, while its ontology is available under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
+The structure of the .csv files contained in this folder (and subfolders), as well as part of their content, was inspired by the CSV files composing the AudioSet dataset which is made available by Google Inc. under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, while its ontology is available under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 Particularly, from AudioSet, we retrieved:
-- The structure of the .csv files as discussed above.
-- Data contained in GE_data.csv (which is a minimal portion of data made available by AudioSet) as well as the related 19 classes (in GE_labels.csv) which we selected among the about 527 classes included in the [AudioSet ontology](https://research.google.com/audioset/ontology/index.html).
+- The structure of the CSV files as discussed above.
+- Data contained in GE_data.csv (which is a minimal portion of data made available by AudioSet) as well as the related 19 classes (in GE_labels.csv) which we selected among the hundreds of classes included in the [AudioSet ontology](https://research.google.com/audioset/ontology/index.html).
 
 Data contained in XX_data.csv files other than GE_data.csv have been retrieved by manually analysing several YouTube videos. Then, the related XX_labels.csv files have been created consequently.
 
 More about downloading the AudioSet dataset can be found [here](https://research.google.com/audioset/download.html).
 
 
-## Future Release
-In the near future, a replication package is expected to be released by making available the source code of the Deep Learning Network adopted within the aforementioned manuscript.
-
+## Furhter Information
+The same data have also been released on Kaggle. By visiting the [RAILS Benchmarks profile](https://www.kaggle.com/railsbenchmarks), you can find these and other data related to the majority of the research activities performed in the context of the RAILS project.
