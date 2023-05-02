@@ -10,11 +10,11 @@ The information and views set out in this document are those of the author(s) an
 This "dataset" has been created for scientific purposes only - and WITHOUT ANY COMMERCIAL purposes - to study the potentials of Deep Learning and Transfer Learning approaches. We are NOT re-distributing any video or audio; our files just contain pointers and indications needed to reproduce our study. The authors DO NOT ASSUME any responsibility for the use that other researchers or users will make of these data. 
 
 ## General Info
-The .csv files contained in this folder (and subfolders) compose the Level Crossing (LC) Warning Bell (WB) Dataset.
+The CSV files contained in this folder (and subfolders) compose the Level Crossing (LC) Warning Bell (WB) Dataset.
 
 When using any of these data, please mention:
 
-De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello, C., Bernaudine, F., and Sansone, C., "Intelligent Detection of Warning Bells at Level Crossings through Deep Transfer Learning for Smarter Railway Maintenance", Submitted to Computers & Industrial Engineering, Elsevier, 2022
+De Donato, L., Marrone, S., Vittorini, V., Flammini, F., Narone, R., Mazzariello, C., Bernaudine, F., and Sansone, C., "Intelligent Detection of Warning Bells at Level Crossings through Deep Transfer Learning for Smarter Railway Maintenance", Engineering Applications of Artificial Intelligence, Elsevier, 2023
 
 
 ## Content of the folder
@@ -41,7 +41,7 @@ Each XX_labels.csv file contains, for each entry, the following information:
 - The code-name ("mid") of the class, which is used in the XX_data.csv file to indicate the sub-class of a specific audio;
 - The extend name of the class ("display_name").
 
-Worth mentioning, sub-classes have not a specific purpose in our task. They have been kept to maintain as much as possible the structure of the "class_labels_indices.csv" file provided by [AudioSet](https://research.google.com/audioset/). The same applies to the XX_data.csv files, which have roughly the same structures of ["Evaluation", "Balanced train", and "Unbalanced train" Audioset .csv files](https://research.google.com/audioset/download.html).
+Worth mentioning, sub-classes have not a specific purpose in our task. They have been kept to maintain as much as possible the structure of the "class_labels_indices.csv" file provided by [AudioSet](https://research.google.com/audioset/). The same applies to the XX_data.csv files, which have roughly the same structures of ["Evaluation", "Balanced train", and "Unbalanced train" Audioset CSV files](https://research.google.com/audioset/download.html).
 
 Indeed, each XX_data.csv file contains, for each entry, the following information:
 - ID: the identifier of the entry;
@@ -51,7 +51,7 @@ Indeed, each XX_data.csv file contains, for each entry, the following informatio
 
 
 ## Credits
-The structure of the .csv files contained in this folder (and subfolders), as well as part of their content, was inspired by the CSV files composing the AudioSet dataset which is made available by Google Inc. under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, while its ontology is available under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
+The structure of the CSV files contained in this folder (and subfolders), as well as part of their content, was inspired by the CSV files composing the AudioSet dataset which is made available by Google Inc. under a [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license, while its ontology is available under a [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/) license.
 
 Particularly, from AudioSet, we retrieved:
 - The structure of the CSV files as discussed above.
