@@ -62,5 +62,5 @@ Data contained in XX_data.csv files other than GE_data.csv have been retrieved b
 More about downloading the AudioSet dataset can be found [here](https://research.google.com/audioset/download.html).
 
 
-## Furhter Information
+## Further Information
 The same data have also been released on Kaggle. By visiting the [RAILS Benchmarks profile](https://www.kaggle.com/railsbenchmarks), you can find these and other data related to the majority of the research activities performed in the context of the RAILS project.
