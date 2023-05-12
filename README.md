@@ -60,7 +60,3 @@ Particularly, from AudioSet, we retrieved:
 Data contained in XX_data.csv files other than GE_data.csv have been retrieved by manually analysing several YouTube videos. Then, the related XX_labels.csv files have been created consequently.
 
 More about downloading the AudioSet dataset can be found [here](https://research.google.com/audioset/download.html).
-
-
-## Further Information
-The same data have also been released on Kaggle. By visiting the [RAILS Benchmarks profile](https://www.kaggle.com/railsbenchmarks), you can find these and other data related to the majority of the research activities performed in the context of the RAILS project.
